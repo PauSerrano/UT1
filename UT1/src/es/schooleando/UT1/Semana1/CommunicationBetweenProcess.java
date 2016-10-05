@@ -14,7 +14,7 @@ public class CommunicationBetweenProcess {
 			System.err.println("Se necesita un programa a ejecutar");
 			System.exit(-1);
 		}
-		
+		//Linea comentada para la practica 1.
 		Process process = new ProcessBuilder(args).start();
 		InputStream is = process.getInputStream();
 		InputStreamReader isr = new InputStreamReader(is);

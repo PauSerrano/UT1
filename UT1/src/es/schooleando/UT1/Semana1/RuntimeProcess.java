@@ -4,6 +4,7 @@ import java.io.IOException;
 
 public class RuntimeProcess {
 
+	//Linea comentada para la practica 1.
 	public static void main(String[] args) {
 		
 		if (args.length <= 0) {
